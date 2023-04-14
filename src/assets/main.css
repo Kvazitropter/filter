@@ -1,0 +1,38 @@
+:root {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px gray solid;
+  background-color: white;
+}
+
+.active {
+  color: white;
+  background-color: gray;
+}
+
+.projects {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.project {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
